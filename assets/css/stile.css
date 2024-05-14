@@ -1,0 +1,130 @@
+.form-panini {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #F3F3F3;
+    border-radius: 0px;
+    width: 80%;
+  }
+  
+  .form-panini >
+  input[type="text"],
+  .form-panini >
+  input[type="password"],
+  .form-panini >
+  input[type="date"],
+  .form-panini >
+  input[type="datetime"],
+  .form-panini >
+  input[type="email"],
+  .form-panini >
+  input[type="number"],
+  .form-panini >
+  input[type="search"],
+  .form-panini >
+  input[type="tel"],
+  .form-panini >
+  input[type="time"],
+  .form-panini >
+  input[type="url"],
+  .form-panini >
+  textarea,
+  .form-panini >
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 0.2em;
+    width: 100%;
+    background-color: #ffffff;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 20px;
+  }
+
+  .form-panini >
+  input[type="radio"],
+  .form-panini >
+  input[type="checkbox"] {
+    margin: 0 4px 0 4px;
+  }
+  
+  .form-panini >
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 0px;
+  }
+  
+  .form-panini >
+  input[type="submit"] {
+    padding: .2em .5em;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .form-panini >
+  input[type="submit"]:hover {
+      color: #333;
+      background-color: #93DE4B;
+  }
+  
+  .form-panini >
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  .form-panini >
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  .form-panini >
+  label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .form-panini >
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .errore {
+      color: red;
+  }
+  
+  .tabella {
+    border-collapse: collapse;
+    margin: 0 auto;
+    overflow: scroll;
+  }
+  
+  .tabella th {
+    border: 1px solid #FFFFFF;
+    height: 3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    font-family: sans-serif;
+  }
+  
+  .tabella td {
+      border: 1px solid #F3F3F3;
+      padding: 0.3em;
+  }
+  
+  .paginazione td {
+      background-color: #F3F3F3;
+  }
